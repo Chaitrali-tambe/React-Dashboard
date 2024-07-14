@@ -1,0 +1,18 @@
+:root{
+  --dark:#0C0C0C;
+  --brown: #481E14;
+  --dark-red: #9B3922;
+  --red: #F2613F;
+  --light-red: #FFBE98;
+  --grey: #FFF5E1;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main-div{
+  display: flex;
+}
+

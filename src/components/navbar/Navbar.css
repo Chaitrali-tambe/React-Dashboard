@@ -1,0 +1,50 @@
+:root{
+    --dark:#0C0C0C;
+    --brown: #481E14;
+    --dark-red: #9B3922;
+    --red: #F2613F;
+    --light-red: #FFBE98;
+    --grey: #FFF5E1;
+}
+
+
+.nav-container{
+    height: 65px;
+    background-color: var(--dark);
+    color: var(--light-red);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: sticky;
+}
+
+.logo{
+    font-weight: 700 !important;
+    font-size: larger;
+}
+
+.nav-options{
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notif svg{
+    position: absolute;
+}
+
+.notif .notif-count{
+    background-color: red;
+    color: white;
+    position: relative;
+    top:-10px;
+    right: -10px;
+    font-size: x-small;
+    font-weight: 500 !important;
+    width: 15px;
+    text-align: center;
+    border-radius: 50%;
+}
+

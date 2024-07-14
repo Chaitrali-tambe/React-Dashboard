@@ -1,0 +1,53 @@
+:root{
+    --dark:#0C0C0C;
+    --brown: #481E14;
+    --dark-red: #9B3922;
+    --red: #F2613F;
+    --light-red: #FFBE98;
+    --grey: #FFF5E1;
+}
+
+.side-bar{
+    box-sizing: border-box;
+    padding: 2%;
+    width: 15vw;
+    background-color: var(--red);
+    height: max-content;
+    color: var(--grey);
+}
+
+.option-heading{
+
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.option-div{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+
+}
+
+.option{
+    margin: 5px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.option:hover{
+    background-color: var(--light-red);
+    color: var(--red);
+    font-weight: 500;
+}
+
+.option svg{
+    margin-right: 15px;
+    height: 30px;
+}
