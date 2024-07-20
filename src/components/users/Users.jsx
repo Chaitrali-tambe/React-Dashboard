@@ -1,8 +1,11 @@
 import React from 'react'
+import UserDataGrid from '../datagrids/UserDataGrid'
 
 const Users = () => {
   return (
-    <div>Users</div>
+    <div>
+      <UserDataGrid/>
+    </div>
   )
 }
 

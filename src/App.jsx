@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <div className='main-div'>
           <Sidebar />
-          <main>
+          <main style={{width: '100%'}}>
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/products' element={<ProductPage />} />
