@@ -1,0 +1,43 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+@media (max-width < 800px) {
+    .flex-div{
+        display: block;
+        width: 90%;
+        box-sizing: border-box;
+      }
+}
+
+
+.bargraph{
+    width: 100%;
+    padding: 10px;
+}
+
+.piechart{
+    padding: 10px;
+}
+
+.linegraph{
+    padding: 10px;
+}
+.scattergraph{
+    padding: 10px;
+    
+}
+
+.chart-title{
+    padding: 20px 0;
+    text-align: center;
+}
