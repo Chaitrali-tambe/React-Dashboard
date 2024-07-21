@@ -1,8 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchUserData = createAsyncThunk('data/fetchUserData', async () =>{
-
-
     // const response = await fetch('https://dummyjson.com/users');
     const response = await fetch('https://fakestoreapi.com/users');
     
@@ -10,9 +8,6 @@ export const fetchUserData = createAsyncThunk('data/fetchUserData', async () =>{
         throw new Error('Network response was not ok');
     }
     const data = await response.json();
-
-    console.log(data)
-
     
     return data;
     
@@ -25,7 +20,7 @@ const initialState = {
 
 };
 
-const dataUserSlice = createSlice({
+const userSlice = createSlice({
     name: 'userdata',
     initialState:{
         loading:false,
@@ -48,6 +43,9 @@ const dataUserSlice = createSlice({
             state.error = action.error.message || 'Failed to fetch data';
         });
     }
-})
+});
 
-export default dataUserSlice.reducer;
+
+
+
+export default userSlice.reducer;

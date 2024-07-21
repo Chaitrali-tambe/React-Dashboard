@@ -5,6 +5,8 @@
   --red: #F2613F;
   --light-red: #FFBE98;
   --grey: #FFF5E1;
+  --dark-grey: #7c7b7a;
+  
 }
 
 *{
@@ -14,5 +16,18 @@
 
 .main-div{
   display: flex;
+
 }
 
+.lineChart{
+  width: 50%;
+}
+
+.header{
+  background-color: #9B3922;
+  color: #FFF5E1;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  padding: 15px 0;
+}
